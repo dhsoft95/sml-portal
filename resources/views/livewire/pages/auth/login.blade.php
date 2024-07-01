@@ -20,7 +20,7 @@ new #[Layout('layouts.main')] class extends Component
 
         Session::regenerate();
 
-        $this->redirectIntended(default: route('dashboard', absolute: true), navigate: true);
+        $this->redirectIntended(default: route('dashboard', absolute: true), navigate: false);
     }
 }; ?>
 <div>

@@ -53,7 +53,8 @@
                         <span data-key="t-authentication">Service Desk </span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="/Analytics" data-key="t-login">Analytics</a></li>
+{{--                        <li><a href="/service-desk" data-key="t-login">Analytics</a></li>--}}
+                        <li><a href="{{ route('service-desk') }}" data-key="t-login">Analytics</a></li>
                     </ul>
                 </li>
 

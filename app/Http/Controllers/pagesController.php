@@ -10,8 +10,8 @@ class pagesController extends Controller
     {
         return view('user-metrix.allUsers');
     }
-    public function show()
+    public function service_desk()
     {
-        return view('test');
+        return view('service-desk.analytics');
     }
 }

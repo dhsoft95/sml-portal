@@ -23,4 +23,5 @@ require __DIR__.'/auth.php';
 //});
 
 Route::get('/users', [\App\Http\Controllers\pagesController::class, 'AllUsers']);
+Route::get('/service-desk', [\App\Http\Controllers\pagesController::class, 'service_desk']);
 
